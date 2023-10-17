@@ -19,10 +19,10 @@
 // console.log(num1);
 
 // 반복문 : 자바스크립트에서 반복문은 whilte, do~while, for, for-in, for-of
-let brands = ["애플", "구글", "페이스북", "아마존", "삼성전자"];
-for(let i = 0; i < brands.length; i++) {
-    console.log(brands[i]);
-}
+// let brands = ["애플", "구글", "페이스북", "아마존", "삼성전자"];
+// for(let i = 0; i < brands.length; i++) {
+//     console.log(brands[i]);
+// }
 
 // 고객이 구입 가능한 음료 리스트 구하기
 let productList = [
@@ -63,6 +63,15 @@ let person = {
     age: 25
 };
 
-for(let )
+for(let key in person) {
+    console.log(person[key]); // 키값을 이용해 해당하는 값 출력
+}
+
+// for-of : 향상된 for문과 유사
+let brands = ["애플", "구글", "페이스북", "아마존", "삼성전자"];
+for (let brand of brands) {
+console.log(brand); //배열의 각 요소 출력
+}
+
 
 
